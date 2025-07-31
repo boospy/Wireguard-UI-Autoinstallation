@@ -22,6 +22,8 @@ The certificate, key, and CA must be available on the server before installation
 + Username: admin
 + Password: admin
 
+> 💡**Attention!** No certificates are generated; they must already exist. I recommend the [XCA](https://github.com/chris2511/xca) to create your own CA-Cert.
+
 ### SSL Certificates:
  + Certificate: /docker/appdata/certs/wireguard-UI.crt
  + Private Key: /docker/appdata/certs/wireguard-UI.key
