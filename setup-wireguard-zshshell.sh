@@ -2,6 +2,7 @@
 
 # ZSH Prompt Setup Script
 # Automatisiert die Installation und Konfiguration einer benutzerdefinierten ZSH-Shell
+# KI-Generated
 
 set -e  # Script bei Fehlern beenden
 

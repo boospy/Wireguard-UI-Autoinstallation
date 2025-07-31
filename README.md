@@ -11,6 +11,8 @@ Wireguard-UI Autoinstallation
 
 ---
 
+The entire project is documented in detail in [my wiki](https://deepdoc.at/dokuwiki/doku.php?id=vpn:ubuntu_lts_wireguard_wireguard-ui_fortigate_ein_sicheres_gespann).
+
 Tested on [Ubuntu-Server 24.04 LTS](https://releases.ubuntu.com/noble/). 
 
 With the installation script “setup-wireguard-zshshell.sh” you install [Wireguard UI](https://github.com/ngoduykhanh/wireguard-ui) including Docker and Nginx with TLS certificate for HTTPS on an Ubuntu server 24.04 LTS.
@@ -27,3 +29,20 @@ The certificate, key, and CA must be available on the server before installation
 
 To start the installation process on your Ubuntu, simply download the installation script and run it:
 
+~~~
+wget https://git.osit.cc/public-projects/wireguard-ui-autoinstallation/-/raw/main/wireguard_UI_installer.py
+chmod +x wireguard_UI_installer.py
+./wireguard_UI_installer.py
+~~~
+
+### ZSH-Shell
+
+<img src="https://deepdoc.at/dokuwiki/lib/exe/fetch.php?w=1000&tok=a6b145&media=vpn:wg-prompt.png" width="" height="256">
+
+The [zsh-config](https://github.com/mh-firouzjah/zsh-config) project was used for this special ZSH shell. For easy installation Use my automatic installer:
+
+~~~
+wget https://git.osit.cc/public-projects/wireguard-ui-autoinstallation/-/raw/main/setup-wireguard-zshshell.sh
+chmod +x setup-wireguard-zshshell.sh
+./setup-wireguard-zshshell.sh
+~~~
